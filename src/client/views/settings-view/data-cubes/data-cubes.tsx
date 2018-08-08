@@ -16,8 +16,11 @@
  */
 
 import * as React from "react";
-import { AppSettings, DataCube } from "../../../../common/models/index";
-import { Button, Notifier, SimpleTable, SimpleTableAction, SimpleTableColumn } from "../../../components/index";
+import { AppSettings } from "../../../../common/models/app-settings/app-settings";
+import { DataCube } from "../../../../common/models/data-cube/data-cube";
+import { Button } from "../../../components/button/button";
+import { Notifier } from "../../../components/notifications/notifications";
+import { SimpleTable, SimpleTableAction, SimpleTableColumn } from "../../../components/simple-table/simple-table";
 import "./data-cubes.scss";
 
 export interface DataCubesProps {

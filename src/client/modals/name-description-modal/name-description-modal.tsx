@@ -17,7 +17,10 @@
 
 import * as React from "react";
 import { COLLECTION as LABELS } from "../../../common/models/labels";
-import { Button, FormLabel, ImmutableInput, Modal } from "../../components/index";
+import { Button } from "../../components/button/button";
+import { FormLabel } from "../../components/form-label/form-label";
+import { ImmutableInput } from "../../components/immutable-input/immutable-input";
+import { Modal } from "../../components/modal/modal";
 import { classNames } from "../../utils/dom/dom";
 import { ImmutableFormDelegate, ImmutableFormState } from "../../utils/immutable-form-delegate/immutable-form-delegate";
 import "./name-description-modal.scss";

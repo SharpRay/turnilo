@@ -16,9 +16,15 @@
  */
 
 import * as React from "react";
-import { BucketingStrategy, Dimension, granularityFromJS, granularityToString, ListItem } from "../../../common/models/index";
+import { BucketingStrategy, Dimension } from "../../../common/models/dimension/dimension";
+import { granularityFromJS, granularityToString } from "../../../common/models/granularity/granularity";
 import { DIMENSION as LABELS } from "../../../common/models/labels";
-import { Button, FormLabel, ImmutableDropdown, ImmutableInput, Modal } from "../../components/index";
+import { ListItem } from "../../../common/models/list-item/list-item";
+import { Button } from "../../components/button/button";
+import { FormLabel } from "../../components/form-label/form-label";
+import { ImmutableDropdown } from "../../components/immutable-dropdown/immutable-dropdown";
+import { ImmutableInput } from "../../components/immutable-input/immutable-input";
+import { Modal } from "../../components/modal/modal";
 import { classNames } from "../../utils/dom/dom";
 import { ImmutableFormDelegate, ImmutableFormState } from "../../utils/immutable-form-delegate/immutable-form-delegate";
 import "./dimension-modal.scss";

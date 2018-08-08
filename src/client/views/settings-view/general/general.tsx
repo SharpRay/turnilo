@@ -17,7 +17,7 @@
 
 import { Timezone } from "chronoshift";
 import * as React from "react";
-import { AppSettings } from "../../../../common/models/index";
+import { AppSettings } from "../../../../common/models/app-settings/app-settings";
 import { GENERAL as LABELS } from "../../../../common/models/labels";
 import { Button } from "../../../components/button/button";
 import { FormLabel } from "../../../components/form-label/form-label";

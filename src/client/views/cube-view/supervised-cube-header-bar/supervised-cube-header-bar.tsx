@@ -17,8 +17,12 @@
 
 import { Timezone } from "chronoshift";
 import * as React from "react";
-import { Customization, Essence, ViewSupervisor } from "../../../../common/models/index";
-import { Button, SettingsMenu, SvgIcon } from "../../../components/index";
+import { Customization } from "../../../../common/models/customization/customization";
+import { Essence } from "../../../../common/models/essence/essence";
+import { ViewSupervisor } from "../../../../common/models/view-supervisor/view-supervisor";
+import { Button } from "../../../components/button/button";
+import { SettingsMenu } from "../../../components/settings-menu/settings-menu";
+import { SvgIcon } from "../../../components/svg-icon/svg-icon";
 import "./supervised-cube-header-bar.scss";
 
 export interface SupervisedCubeHeaderBarProps {

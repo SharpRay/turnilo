@@ -17,7 +17,9 @@
 
 import { Timezone } from "chronoshift";
 import * as React from "react";
-import { DataCube, Stage, User } from "../../../common/models/index";
+import { DataCube } from "../../../common/models/data-cube/data-cube";
+import { Stage } from "../../../common/models/stage/stage";
+import { User } from "../../../common/models/user/user";
 import { Fn } from "../../../common/utils/general/general";
 import { STRINGS } from "../../config/constants";
 import { BubbleMenu } from "../bubble-menu/bubble-menu";

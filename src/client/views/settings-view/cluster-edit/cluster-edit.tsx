@@ -16,7 +16,8 @@
  */
 
 import * as React from "react";
-import { Cluster, DataCube } from "../../../../common/models/index";
+import { Cluster } from "../../../../common/models/cluster/cluster";
+import { DataCube } from "../../../../common/models/data-cube/data-cube";
 import { CLUSTER as LABELS } from "../../../../common/models/labels";
 import { pluralIfNeeded } from "../../../../common/utils/general/general";
 import { IP_REGEX, NUM_REGEX } from "../../../../common/utils/string/string";

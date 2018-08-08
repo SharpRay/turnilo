@@ -16,9 +16,13 @@
  */
 
 import * as React from "react";
-import { Measure } from "../../../common/models/index";
 import { MEASURE as LABELS } from "../../../common/models/labels";
-import { Button, FormLabel, ImmutableDropdown, ImmutableInput, Modal } from "../../components/index";
+import { Measure } from "../../../common/models/measure/measure";
+import { Button } from "../../components/button/button";
+import { FormLabel } from "../../components/form-label/form-label";
+import { ImmutableDropdown } from "../../components/immutable-dropdown/immutable-dropdown";
+import { ImmutableInput } from "../../components/immutable-input/immutable-input";
+import { Modal } from "../../components/modal/modal";
 import { classNames } from "../../utils/dom/dom";
 import { ImmutableFormDelegate, ImmutableFormState } from "../../utils/immutable-form-delegate/immutable-form-delegate";
 import "./measure-modal.scss";

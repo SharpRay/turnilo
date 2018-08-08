@@ -16,11 +16,17 @@
  */
 
 import * as React from "react";
-import { Cluster, DataCube } from "../../../common/models/index";
+import { Cluster } from "../../../common/models/cluster/cluster";
+import { DataCube } from "../../../common/models/data-cube/data-cube";
 import { DATA_CUBE as LABELS } from "../../../common/models/labels";
 import { indexByAttribute } from "../../../common/utils/array/array";
 import { generateUniqueName } from "../../../common/utils/string/string";
-import { Button, Checkbox, FormLabel, ImmutableDropdown, ImmutableInput, Modal } from "../../components/index";
+import { Button } from "../../components/button/button";
+import { Checkbox } from "../../components/checkbox/checkbox";
+import { FormLabel } from "../../components/form-label/form-label";
+import { ImmutableDropdown } from "../../components/immutable-dropdown/immutable-dropdown";
+import { ImmutableInput } from "../../components/immutable-input/immutable-input";
+import { Modal } from "../../components/modal/modal";
 import { STRINGS } from "../../config/constants";
 import { ImmutableFormDelegate, ImmutableFormState } from "../../utils/immutable-form-delegate/immutable-form-delegate";
 import "./data-cube-seed-modal.scss";

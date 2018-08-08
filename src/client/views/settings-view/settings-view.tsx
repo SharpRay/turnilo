@@ -17,12 +17,17 @@
 
 import * as React from "react";
 import { MANIFESTS } from "../../../common/manifests/index";
-import { AppSettings, Cluster, Customization, DataCube, User } from "../../../common/models/index";
+import { AppSettings } from "../../../common/models/app-settings/app-settings";
+import { Cluster } from "../../../common/models/cluster/cluster";
+import { Customization } from "../../../common/models/customization/customization";
+import { DataCube } from "../../../common/models/data-cube/data-cube";
+import { User } from "../../../common/models/user/user";
 import { indexByAttribute } from "../../../common/utils/array/array";
 import { Fn } from "../../../common/utils/general/general";
 import { ImmutableUtils } from "../../../common/utils/immutable-utils/immutable-utils";
-import { Button, Route, Router } from "../../components/index";
+import { Button } from "../../components/button/button";
 import { Notifier } from "../../components/notifications/notifications";
+import { Route, Router } from "../../components/router/router";
 import { STRINGS } from "../../config/constants";
 import { ClusterSeedModal } from "../../modals/cluster-seed-modal/cluster-seed-modal";
 import { DataCubeSeedModal } from "../../modals/data-cube-seed-modal/data-cube-seed-modal";

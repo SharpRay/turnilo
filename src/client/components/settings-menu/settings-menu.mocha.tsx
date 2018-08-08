@@ -19,7 +19,7 @@ import { expect } from "chai";
 import { Timezone } from "chronoshift";
 import * as React from "react";
 import * as TestUtils from "react-dom/test-utils";
-import { DataCubeFixtures } from "../../../common/models/fixtures";
+import { DataCubeFixtures } from "../../../common/models/data-cube/data-cube.fixtures";
 import { findDOMNode, renderIntoDocument } from "../../utils/test-utils";
 import { SettingsMenu } from "./settings-menu";
 

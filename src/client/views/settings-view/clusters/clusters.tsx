@@ -16,9 +16,10 @@
  */
 
 import * as React from "react";
-import { AppSettings, Cluster } from "../../../../common/models/index";
+import { AppSettings } from "../../../../common/models/app-settings/app-settings";
+import { Cluster } from "../../../../common/models/cluster/cluster";
 import { Button } from "../../../components/button/button";
-import { Notifier } from "../../../components/index";
+import { Notifier } from "../../../components/notifications/notifications";
 import { SimpleTable, SimpleTableAction, SimpleTableColumn } from "../../../components/simple-table/simple-table";
 import { STRINGS } from "../../../config/constants";
 import "./clusters.scss";

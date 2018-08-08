@@ -17,10 +17,13 @@
 
 import { List } from "immutable";
 import * as React from "react";
-import { DataCube, Dimension, Measure } from "../../../common/models/index";
+import { DataCube } from "../../../common/models/data-cube/data-cube";
+import { Dimension } from "../../../common/models/dimension/dimension";
+import { Measure } from "../../../common/models/measure/measure";
 import { pluralIfNeeded } from "../../../common/utils/general/general";
+import { Button } from "../../components/button/button";
 import { Checkbox } from "../../components/checkbox/checkbox";
-import { Button, Modal } from "../../components/index";
+import { Modal } from "../../components/modal/modal";
 import { STRINGS } from "../../config/constants";
 import "./suggestion-modal.scss";
 
